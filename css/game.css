@@ -1,0 +1,35 @@
+.background    { background-image: url("https://cdn.pixabay.com/photo/2016/06/28/00/13/castle-1483681_960_720.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100); }
+.wall          { background-image: url("http://maxpixel.freegreatpicture.com/static/photo/1x/Brick-Wall-Wall-Structure-Stones-Stone-Wall-Bricks-454952.jpg");}
+
+.actor  { position: absolute;  }
+.player {background-image: url("https://s1.piq.land/2012/10/04/JIrkyq2ltCJVEU0udYnIkEzp_400x400.png");
+      background-size: 15px 30px;
+      }
+.coin {background-image: url("http://img.hb.aicdn.com/ed3b7593615dc8f7a5cf5f490cb8b57ee6b5b284aa18-wgjNnh_fw658");
+      background-size: 12px 12px;
+      }
+.cash{background-image: url("https://cdn.pixabay.com/photo/2016/03/31/21/41/cash-1296584_960_720.png");
+      background-size: 20px 20px;
+}
+.floater{background: grey;}
+.enemy{background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Bat_shadow_black.svg/1280px-Bat_shadow_black.svg.png");
+        background-size: 20px 20px
+}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
